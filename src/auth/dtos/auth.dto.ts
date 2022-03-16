@@ -1,8 +1,7 @@
 import { IsString } from "class-validator";
 
-export class CreateMessageDto {
+export class AuthDto {
   @IsString()
-  //content: string;
   login: string;
   password: string;
 }
