@@ -1,0 +1,26 @@
+[
+  {
+    "id": "111",
+    "accounts": "KZ8622C000015645746",
+    "type": "debit",
+    "balance": "283832.83",
+    "bik": "CASPKZKA",
+    "currencyCode": "KZT"
+  },
+  {
+    "id": "222",
+    "accounts": "KZ8583C000058743694",
+    "type": "debit",
+    "balance": "1233.46",
+    "bik": "CASPKZKA",
+    "currencyCode": "KZT"
+  },
+  {
+    "id": "333",
+    "accounts": "KZ8574C000083750385",
+    "type": "credit",
+    "balance": "566483.23",
+    "bik": "CASPKZKA",
+    "currencyCode": "KZT"
+  }
+]
