@@ -2,25 +2,52 @@
   {
     "id": "111",
     "accounts": "KZ8622C000015645746",
-    "type": "debit",
+    "type": "card",
+    "accountType": "debit",
     "balance": "283832.83",
     "bik": "CASPKZKA",
-    "currencyCode": "KZT"
+    "currencyCode": "KZT",
+    "alias": "Multi-Currency",
+    "cardNumber": "4400 3838 2736 2333",
+    "expirationDate": "27/24"
   },
   {
     "id": "222",
     "accounts": "KZ8583C000058743694",
-    "type": "debit",
+    "type": "account",
+    "accountType": "current",
     "balance": "1233.46",
     "bik": "CASPKZKA",
     "currencyCode": "KZT"
   },
   {
     "id": "333",
-    "accounts": "KZ8574C000083750385",
-    "type": "credit",
-    "balance": "566483.23",
+    "accounts": "KZ4827C000048373741",
+    "type": "account",
+    "accountType": "current",
+    "balance": "3827.46",
     "bik": "CASPKZKA",
     "currencyCode": "KZT"
+  },
+  {
+    "id": "444",
+    "accounts": "KZ8473C000048481747",
+    "type": "credit",
+    "accountType": "credit",
+    "balance": "-378223.37",
+    "bik": "CASPKZKA",
+    "currencyCode": "KZT"
+  },
+  {
+    "id": "555",
+    "accounts": "KZ8574C000083750385",
+    "type": "card",
+    "accountType": "credit",
+    "alias": "Credit Card",
+    "balance": "566483.23",
+    "bik": "CASPKZKA",
+    "cardNumber": "4400 3497 5836 4382",
+    "currencyCode": "KZT",
+    "expirationDate": "13/23"
   }
 ]
