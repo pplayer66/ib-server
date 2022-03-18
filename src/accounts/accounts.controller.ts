@@ -5,7 +5,11 @@ import { readFile } from "fs/promises";
 export class AccountsController {
   @Get()
   async getAccounts() {
-    const accounts = await readFile("accounts.json", "utf8");
-    return JSON.parse(accounts);
+    const _accounts = await readFile("accounts.json", "utf8");
+    const accounts = await new Promise((resolve) => {
+      setTimeout(() => resolve(JSON.parse(_accounts)), 2000);
+    });
+
+    return accounts;
   }
 }

@@ -1,0 +1,53 @@
+[
+  {
+    "type": "payment",
+    "alias": "My beeline",
+    "amount": "1500",
+    "currency": "KZT",
+    "service": "mobile",
+    "provider": "beeline"
+  },
+  {
+    "type": "payment",
+    "alias": "Kcell template",
+    "amount": "2600",
+    "currency": "KZT",
+    "service": "mobile",
+    "provider": "kcell"
+  },
+  {
+    "type": "payment",
+    "alias": "Ком. услуги",
+    "amount": "15300",
+    "currency": "KZT",
+    "service": "utility",
+    "provider": "alseco"
+  },
+  {
+    "type": "transfer",
+    "alias": "Долг Ивану",
+    "amount": "10000",
+    "currency": "KZT",
+    "from": "111",
+    "to": "KZ8633C000047583547",
+    "transferType": "external"
+  },
+  {
+    "type": "transfer",
+    "alias": "Оплата за ремонт",
+    "amount": "35000",
+    "currency": "KZT",
+    "from": "555",
+    "to": "+77018883455",
+    "transferType": "internal"
+  },
+  {
+    "type": "transfer",
+    "alias": "Оплата за ремонт",
+    "amount": "23500",
+    "currency": "KZT",
+    "from": "111",
+    "to": "+77055556720",
+    "transferType": "internal"
+  }
+]
