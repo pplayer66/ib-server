@@ -1,0 +1,52 @@
+[
+  {
+    "id": "3111",
+    "date": "2022-02-23T17:25:00+06:00",
+    "type": "payment",
+    "from": "111",
+    "amount": "23400",
+    "currency": "KZT",
+    "service": "tax",
+    "provider": "УГД по Бостандыкскому району"
+  },
+  {
+    "id": "3112",
+    "date": "2022-02-27T12:34:00+06:00",
+    "type": "transfer",
+    "from": "555",
+    "to": "KZ8655C000056773944",
+    "amount": "12300",
+    "currency": "KZT",
+    "transferType": "external"
+  },
+  {
+    "id": "3113",
+    "date": "2022-03-01T10:07:00+06:00",
+    "type": "transfer",
+    "from": "111",
+    "to": "+77018883344",
+    "amount": "25000",
+    "currency": "KZT",
+    "transferType": "internal"
+  },
+  {
+    "id": "3114",
+    "date": "2022-03-04T16:44:00+06:00",
+    "type": "payment",
+    "from": "111",
+    "amount": "1400",
+    "currency": "KZT",
+    "service": "mobile",
+    "provider": "kcell"
+  },
+  {
+    "id": "3115",
+    "date": "2022-03-14T23:46:00+06:00",
+    "type": "payment",
+    "from": "111",
+    "amount": "45500",
+    "currency": "KZT",
+    "service": "tickets",
+    "provider": "flyarystan"
+  }
+]
