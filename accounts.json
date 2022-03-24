@@ -1,7 +1,7 @@
 [
   {
     "id": "111",
-    "accounts": "KZ8622C000015645746",
+    "account": "KZ8622C000015645746",
     "type": "card",
     "accountType": "debit",
     "balance": "283832.83",
@@ -13,7 +13,7 @@
   },
   {
     "id": "222",
-    "accounts": "KZ8583C000058743694",
+    "account": "KZ8583C000058743694",
     "type": "account",
     "accountType": "current",
     "balance": "1233.46",
@@ -22,7 +22,7 @@
   },
   {
     "id": "333",
-    "accounts": "KZ4827C000048373741",
+    "account": "KZ4827C000048373741",
     "type": "account",
     "accountType": "current",
     "balance": "3827.46",
@@ -31,7 +31,7 @@
   },
   {
     "id": "444",
-    "accounts": "KZ8473C000048481747",
+    "account": "KZ8473C000048481747",
     "type": "credit",
     "accountType": "credit",
     "balance": "-378223.37",
@@ -40,7 +40,7 @@
   },
   {
     "id": "555",
-    "accounts": "KZ8574C000083750385",
+    "account": "KZ8574C000083750385",
     "type": "card",
     "accountType": "credit",
     "alias": "Credit Card",
