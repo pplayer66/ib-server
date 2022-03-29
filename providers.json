@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Beeline",
+    "alias": "beeline",
+    "serviceId": "111",
+    "id": "155"
+  },
+  {
+    "name": "Kcell",
+    "alias": "kcell",
+    "serviceId": "111",
+    "id": "144"
+  },
+  {
+    "name": "Tele2",
+    "alias": "tele2",
+    "serviceId": "111",
+    "id": "133"
+  },
+  {
+    "name": "Idnet",
+    "alias": "idnet",
+    "serviceId": "222",
+    "id": "211"
+  },
+  {
+    "name": "Alma-TV",
+    "alias": "almatv",
+    "serviceId": "222",
+    "id": "244"
+  },
+  {
+    "name": "Fastcom",
+    "alias": "fastcom",
+    "serviceId": "222",
+    "id": "233"
+  },
+  {
+    "name": "Alseco",
+    "alias": "alseco",
+    "serviceId": "333",
+    "id": "311"
+  },
+  {
+    "name": "IVC",
+    "alias": "ivc",
+    "serviceId": "333",
+    "id": "322"
+  },
+  {
+    "name": "BI Group",
+    "alias": "bigroup",
+    "serviceId": "333",
+    "id": "344"
+  }
+]
