@@ -11,6 +11,6 @@ export class OperationsController {
     const sortedOperations = operations.sort((a, b) =>
       moment(a.date).isBefore(moment(b.date)) ? 1 : -1
     );
-    return sortedOperations;
+    return sortedOperations.slice(0, 3);
   }
 }

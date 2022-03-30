@@ -24,7 +24,7 @@ export class PaymentsController {
     const currentAccount = accounts.find((acc) => acc.id === account);
     const newAccount = {
       ...currentAccount,
-      amount: +currentAccount.amount - amount,
+      balance: +currentAccount.balance - amount,
     };
     const newAccounts = accounts.map((acc) =>
       acc.id === newAccount.id ? newAccount : acc
