@@ -6,6 +6,7 @@ import { TemplatesModule } from "../templates/templates.module";
 import { OperationsModule } from "../operations/operations.module";
 import { ServicesModule } from "../services/services.module";
 import { ProvidersModule } from "../providers/providers.module";
+import { PaymentsModule } from "../payments/payments.module";
 
 @Module({
   controllers: [AppController],
@@ -16,6 +17,7 @@ import { ProvidersModule } from "../providers/providers.module";
     OperationsModule,
     ServicesModule,
     ProvidersModule,
+    PaymentsModule,
   ],
 })
 export class AppModule {}

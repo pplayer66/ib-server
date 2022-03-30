@@ -3,6 +3,7 @@
     "type": "payment",
     "alias": "My beeline",
     "amount": "1500",
+    "to": "+77055011125",
     "currency": "KZT",
     "service": "mobile",
     "provider": "beeline"
@@ -10,7 +11,8 @@
   {
     "type": "payment",
     "alias": "Kcell template",
-    "amount": "2600",
+    "amount": 2600,
+    "to": "+77028882222",
     "currency": "KZT",
     "service": "mobile",
     "provider": "kcell"
@@ -18,7 +20,8 @@
   {
     "type": "payment",
     "alias": "Ком. услуги",
-    "amount": "15300",
+    "amount": 15300,
+    "to": "8009223384421",
     "currency": "KZT",
     "service": "utility",
     "provider": "alseco"
@@ -26,7 +29,7 @@
   {
     "type": "transfer",
     "alias": "Долг Ивану",
-    "amount": "10000",
+    "amount": 10000,
     "currency": "KZT",
     "from": "111",
     "to": "KZ8633C000047583547",
@@ -35,7 +38,7 @@
   {
     "type": "transfer",
     "alias": "Оплата за ремонт",
-    "amount": "35000",
+    "amount": 35000,
     "currency": "KZT",
     "from": "555",
     "to": "+77018883455",
@@ -44,10 +47,19 @@
   {
     "type": "transfer",
     "alias": "Оплата за ремонт",
-    "amount": "23500",
+    "amount": 23500,
     "currency": "KZT",
     "from": "111",
     "to": "+77055556720",
     "transferType": "internal"
+  },
+  {
+    "type": "payment",
+    "alias": "Fastcom payment",
+    "amount": 1200,
+    "currency": "KZT",
+    "service": "internet",
+    "provider": "fastcom",
+    "to": "+770023123123"
   }
 ]
