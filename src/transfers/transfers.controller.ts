@@ -1,8 +1,9 @@
-import { Body, Controller } from "@nestjs/common";
+import { Body, Controller, Post } from "@nestjs/common";
 import { readFile, writeFile } from "fs/promises";
 
 @Controller("transfers")
 export class TransfersController {
+  @Post("/proceed")
   async transfer(@Body() body: any) {
     const { amount, account, transferTo, transderId } = body;
 
