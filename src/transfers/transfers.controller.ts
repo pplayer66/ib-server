@@ -1,6 +1,14 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { readFile, writeFile } from 'fs/promises';
 
+const transfersMap = {
+  internal_transfer: true,
+  card_to_account: true,
+  account_to_card: true,
+  deposit_withdraw: true,
+  deposit_fulfill: true,
+};
+
 @Controller('transfers')
 export class TransfersController {
   @Post('/proceed')
@@ -14,19 +22,18 @@ export class TransfersController {
       ...accountFrom,
       balance: accountFrom.balance - amount,
     };
-    console.log(newAccount);
+
     let newAccounts = accounts.map(acc =>
       acc.id == newAccount.id ? newAccount : acc
     );
 
-    if (transferId === 'internal_transfer') {
+    if (transfersMap[transferId]) {
       const accountTo = newAccounts.find(acc => acc.id == transferTo);
-      console.log(accountTo);
       const newAccountTo = {
         ...accountTo,
         balance: +accountTo.balance + amount,
       };
-      console.log(newAccountTo);
+
       newAccounts = newAccounts.map(acc =>
         acc.id == newAccountTo.id ? newAccountTo : acc
       );
