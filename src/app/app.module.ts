@@ -8,6 +8,7 @@ import { ServicesModule } from "../services/services.module";
 import { ProvidersModule } from "../providers/providers.module";
 import { PaymentsModule } from "../payments/payments.module";
 import { TransfersModule } from "../transfers/transfers.module";
+import { ConversionModule } from "../conversion/conversion.module";
 
 @Module({
   controllers: [AppController],
@@ -20,6 +21,7 @@ import { TransfersModule } from "../transfers/transfers.module";
     ProvidersModule,
     PaymentsModule,
     TransfersModule,
+    ConversionModule,
   ],
 })
 export class AppModule {}
