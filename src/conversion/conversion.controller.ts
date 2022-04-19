@@ -39,10 +39,13 @@ export class ConversionController {
 
     accounts = accounts.map((acc) => {
       if (acc.id == account) return accountFrom;
-      if (acc.id == transferTo) return transferTo;
+      if (acc.id == transferTo) return accountTo;
       return acc;
     });
 
-    await writeFile("accounts.json", JSON.stringify(accounts));
+    return await new Promise(async (resolve) => {
+      await writeFile("accounts.json", JSON.stringify(accounts));
+      setTimeout(() => resolve(accounts), 1000);
+    });
   }
 }
