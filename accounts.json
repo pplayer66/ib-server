@@ -64,7 +64,7 @@
     "account": "KZ8583C000066782613",
     "type": "currency",
     "accountType": "debit",
-    "balance": 0,
+    "balance": 38833,
     "bik": "CASPKZKA",
     "currencyCode": "USD"
   },
@@ -73,7 +73,7 @@
     "account": "KZ8472C000047583748",
     "type": "currency",
     "accountType": "debit",
-    "balance": 0,
+    "balance": 12738,
     "bik": "CASPKZKA",
     "currencyCode": "RUB"
   }
