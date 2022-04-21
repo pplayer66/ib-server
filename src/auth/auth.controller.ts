@@ -17,7 +17,7 @@ export class AuthController {
       const data = await readFile("user.json", "utf8");
 
       const userData = JSON.parse(data);
-      return userData[login];
+      return userData;
     }
     throw new HttpException(
       "Invalid username or password",
