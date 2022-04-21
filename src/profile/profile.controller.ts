@@ -17,7 +17,7 @@ export class ProfileController {
     await writeFile("user.json", JSON.stringify({ email, name, lastName }));
 
     return await new Promise(async (resolve) => {
-      setTimeout(() => resolve(JSON.parse(body)), 2000);
+      setTimeout(() => resolve(body), 2000);
     });
   }
 }
