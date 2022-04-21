@@ -13,11 +13,11 @@ export class AuthController {
   @Post()
   async login(@Body() body: AuthDto) {
     const { login, password } = body;
-    if (login === "fred@gmail.com" && password === "123") {
-      const data = await readFile("user.json", "utf8");
+    const userJson = await readFile("user.json", "utf8");
+    const user = JSON.parse(userJson);
 
-      const userData = JSON.parse(data);
-      return userData;
+    if (login === user.email && password === "123") {
+      return user;
     }
     throw new HttpException(
       "Invalid username or password",
